@@ -1,0 +1,9 @@
+data:
+  source: data/source
+  pattern: "file_name_*.csv"
+columns:
+  time: ts
+  value: metric
+  grouping: [a, b]
+output:
+  dir: output
